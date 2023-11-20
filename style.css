@@ -1,45 +1,165 @@
+/* Sorry for anyone try to read this I did a little too hard code cuz im burnout already */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav {
-  overflow: hidden;
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  height: 72px;
-  box-shadow: 0px .25px .25px rgb(73, 68, 68);
-  text-align: center;
-  align-items: center;
-  margin-left: 1.2%;
+.headingrule {
+  background-color: white;
+  opacity: 0.9;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  top: 0;
 }
 
-.topnav a {
-  float: left;
+@media (max-width: 767px) {
+  .menu-list {
+    display: none;
+  }
+}
+
+.first-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.second-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-div {
+  flex: none;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1280px) {
+  .third-div {
+    margin-right: 4px;
+    margin-right: 8px !important;
+  }
+
+  .menu-list {
+    display: flex !important;
+  }
+
+}
+
+@media (max-width: 1279px) {
+  .menu-list {
+    display: none !important;
+  }
+}
+
+
+.custom-link {
+  padding-left: 12%;
+  outline: none;
+}
+
+.custom-link:focus,
+.custom-link:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-link:focus-visible {
+  border: 2px solid #007bff;
+}
+
+.custom-link {
+  border-radius: 0.375em;
+}
+
+.menu-list {
+  flex-grow: 1 !important;
+  align-items: center !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  gap: 31px;
+}
+
+.menu-list a {
   color: #454545;
-  text-align: center;
-  padding: 7px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-.topnav a:hover {
+.menu-list a:hover {
   color: #ccb483;
+  text-decoration: none;
 }
 
-.topnav img {
-  margin: auto;
+ul.login {
+  gap: 32px;
 }
 
-.topnav .top-logo {
+li {
+  list-style: none;
+}
+
+.focus-visible:outline-none {
+  outline: none;
+}
+
+.login {
+  display: flex;
+  flex: none;
+  gap: 4px;
+  align-items: center;
+  margin: 0;
   color: #454545;
-  font-family: "Poppins" !important;
+  padding-right: 80px;
+}
+
+.signup {
+  border: 1px solid transparent;
+  border-radius: 9999px;
   font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-family: 'Your Font Name', sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  padding: 0px 24px;
+  height: 44px;
+  background-color: #edf0f2;
+  color: #454545;
+}
+
+.signup:hover {
+  background-color: gray;
+}
+
+.signup:active {
+  background-color: lightgray;
+  transform: scale(0.99);
+  color: #454545;
+}
+
+.signup:focus {
+  outline: 2px solid lightgray;
+}
+
+.signup.focus-visible::before {
+  display: inline-flex;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.pricing {
   display: flex;
   align-items: center;
-}
-
-.topnav .logo-text {
-  margin-left: 10px;
-  display: block;
 }
