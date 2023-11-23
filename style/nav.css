@@ -46,15 +46,21 @@ body {
 
   .menu-list {
     display: flex !important;
+    font-family: "Canva Sans","Open Sans",sans-serif; 
+    font-size: 16px;
   }
 
 }
 
-@media (max-width: 1279px) {
+/* @media (max-width: 1279px) {
   .menu-list {
     display: none !important;
   }
-}
+
+  .login {
+    display: none !important;
+  }
+} */
 
 
 .custom-link {
@@ -96,6 +102,8 @@ body {
 
 ul.login {
   gap: 32px;
+  font-family: "Canva Sans","Open Sans",sans-serif; 
+  font-size: 16px;
 }
 
 li {
@@ -122,12 +130,12 @@ li {
   font-weight: bold;
   transition: all 0.3s ease-in-out;
   text-align: center;
-  font-family: 'Your Font Name', sans-serif;
+  font-family: "Canva Sans","Open Sans",sans-serif; 
+  font-size: 16px;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1em;
   padding: 0px 24px;
   height: 44px;
   background-color: #edf0f2;
@@ -163,3 +171,13 @@ li {
   display: flex;
   align-items: center;
 }
+
+.login li a {
+  text-decoration: none;
+  color: #454545;
+}
+
+.realLogin:hover {
+  color: #ccb483;
+}
+

@@ -1,0 +1,35 @@
+.RemoveBg p {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12.5%;
+    color: #454545;
+    
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-upload {
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px;
+    height: 44px;
+    background-color: #0F70E6;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text-btn p{
+    text-align: center;
+    align-items: center;
+}
