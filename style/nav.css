@@ -7,19 +7,38 @@ body {
 .headingrule {
   background-color: white;
   opacity: 0.9;
-  backdrop-filter: blur(8px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  z-index: 50;
   top: 0;
 }
 
-@media (max-width: 767px) {
-  .menu-list {
-    display: none;
+
+@media (max-width: 1279px) {
+
+  .menu-list,
+  .login {
+    display: none !important;
+  }
+
+  .dropbtn {
+    display: flex !important;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn {
+    display: flex !important;
   }
 }
+
+@media (max-width: 750px) {
+.RemoveBg {margin-top: 40%;}
+}
+
+
 
 .first-div {
   margin-left: auto;
@@ -40,27 +59,15 @@ body {
 
 @media (min-width: 1280px) {
   .third-div {
-    margin-right: 4px;
     margin-right: 8px !important;
   }
 
   .menu-list {
     display: flex !important;
-    font-family: "Canva Sans","Open Sans",sans-serif; 
+    font-family: "Canva Sans", "Open Sans", sans-serif;
     font-size: 16px;
   }
-
 }
-
-/* @media (max-width: 1279px) {
-  .menu-list {
-    display: none !important;
-  }
-
-  .login {
-    display: none !important;
-  }
-} */
 
 
 .custom-link {
@@ -102,7 +109,7 @@ body {
 
 ul.login {
   gap: 32px;
-  font-family: "Canva Sans","Open Sans",sans-serif; 
+  font-family: "Canva Sans", "Open Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -121,7 +128,7 @@ li {
   align-items: center;
   margin: 0;
   color: #454545;
-  padding-right: 80px;
+  padding-right: 10px;
 }
 
 .signup {
@@ -130,7 +137,7 @@ li {
   font-weight: bold;
   transition: all 0.3s ease-in-out;
   text-align: center;
-  font-family: "Canva Sans","Open Sans",sans-serif; 
+  font-family: "Canva Sans", "Open Sans", sans-serif;
   font-size: 16px;
   text-decoration: none;
   display: inline-flex;
@@ -181,3 +188,51 @@ li {
   color: #ccb483;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2.5%;
+}
+
+.dropbtn {
+  background-color: white;
+  display: none;
+  color: black;
+  padding: 16px;
+  font-size: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: black;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 2;
+}
+
+.dropdown:hover .dropbtn {
+  color: #ccb483;
+}

@@ -3,9 +3,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     text-align: center;
-    margin-top: 12.5%;
+    margin-top: 15.5%;
     color: #454545;
-    
 }
 
 .btn {
@@ -29,7 +28,16 @@
     color: #FFFFFF;
 }
 
-.text-btn p{
-    text-align: center;
-    align-items: center;
+.txt-btn {
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.txt-btn .txt1 {
+    font-size: 20px;
+    font-family: "Canva Sans", "Open Sans", sans-serif;
+}
+.txt-btn .txt2 {
+    font-size: 12px;
+    font-family: "Canva Sans", "Open Sans", sans-serif;
 }
