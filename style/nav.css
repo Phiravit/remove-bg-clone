@@ -233,6 +233,9 @@ li {
   z-index: 2;
 }
 
+.dropdown:hover .dropdown-content a:hover{
+  color:#ccb483;
+}
 .dropdown:hover .dropbtn {
   color: #ccb483;
 }
