@@ -1,16 +1,22 @@
+html,
 body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+body {
+    font-family: "Canva Sans", "Open Sans", sans-serif;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
 .RemoveBg p {
     font-size: 32px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
     font-weight: bold;
     text-align: center;
-    margin-top: 15.5%;
+    margin-top: 12%;
     color: #454545;
 }
 
@@ -24,7 +30,6 @@ body {
     border: 1px solid transparent;
     border-radius: 9999px;
     font-weight: bold;
-    font-family: "Canva Sans", "Open Sans", sans-serif;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -43,12 +48,10 @@ body {
 
 .txt-btn .txt1 {
     font-size: 20px;
-    font-family: "Canva Sans", "Open Sans", sans-serif;
 }
 
 .txt-btn .txt2 {
     font-size: 12px;
-    font-family: "Canva Sans", "Open Sans", sans-serif;
 }
 
 .max-w {
@@ -77,11 +80,22 @@ body {
     }
 }
 
+.ctm-text-up {
+    font-weight: bold;
+    color: #54616C;
+    font-size: 16px;
+}
+
 .ctm-text {
     font-weight: bold;
     color: #54616C;
-    text-align: center;
+    font-size: 10px;
 }
+
+.ctm-text a {
+    color: #54616C;
+}
+
 
 .flex-container3 {
     display: flex;
