@@ -1,4 +1,4 @@
-/* Sorry for anyone try to read this I did a little too hard code cuz im burnout already */
+/* Sorry for anyone who try to read this I did a little bit of hard code cuz im burnout already */
 body {
   margin: 0;
 }
@@ -12,33 +12,6 @@ body {
   top: 0;
 }
 
-
-@media (max-width: 1279px) {
-
-  .menu-list,
-  .login {
-    display: none !important;
-  }
-
-  .dropbtn {
-    display: flex !important;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-
-  .dropbtn {
-    display: flex !important;
-  }
-}
-
-@media (max-width: 750px) {
-  .RemoveBg {
-    margin-top: 40%;
-  }
-}
 
 
 
@@ -58,19 +31,6 @@ body {
   display: flex;
   align-items: center;
 }
-
-@media (min-width: 1280px) {
-  .third-div {
-    margin-right: 8px !important;
-  }
-
-  .menu-list {
-    display: flex !important;
-    font-family: "Canva Sans", "Open Sans", sans-serif;
-    font-size: 16px;
-  }
-}
-
 
 .custom-link {
   padding-left: 12%;
@@ -240,4 +200,44 @@ li {
 
 .dropdown:hover .dropbtn {
   color: #ccb483;
+}
+
+
+@media (max-width: 1279px) {
+
+  .menu-list,
+  .login {
+    display: none !important;
+  }
+
+  .dropbtn {
+    display: flex !important;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .RemoveBg {
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .third-div {
+    margin-right: 8px !important;
+  }
+
+  .menu-list {
+    display: flex !important;
+    font-family: "Canva Sans", "Open Sans", sans-serif;
+    font-size: 16px;
+  }
 }

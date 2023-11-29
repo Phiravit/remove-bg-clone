@@ -29,76 +29,66 @@
   <div class="header">
     <div class="head-element">
       <h2>Login with your Kaleido Account</h2>
-    </div>
-    <p class="center">or create a &nbsp;<a href="#">new account</a>&nbsp; for free</p>
-  </div>
+      <p class="center">
+        <span class="choice">or create a &nbsp;<a href="#">new account</a>&nbsp; for free</span>
+      </p>
 
-  <div class="center">
-    <div class="custom-container">
-      <img src="./img/small-ai-logo.svg" alt="Your Image">
-      <p>You can use your Kaleido Account for remove.bg,<br> unscreen.com, and designify.com services.</p>
-    </div>
-  </div>
+      <div class="center">
+        <div class="custom-container">
+          <img src="./img/small-ai-logo.svg" alt="Your Image">
+          <p>You can use your Kaleido Account for remove.bg,<br> unscreen.com, and designify.com services.</p>
+        </div>
+      </div>
+      <div class="card">
+        <ul class="nav nav-card-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="./login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html">Sign up</a>
+          </li>
+        </ul>
+        <div class="card-body">
 
+          <button class="btn btn-login" type="submit">
+            <img class="img-logo-fb" src="./img/fb-logo.svg" alt="Facebook Icon">
+            Continue with Facebook
+          </button>
+          <button class="btn btn-login oauth-login-button" type="submit">
+            <img class="img-logo" src="./img/gg-logo.svg" alt="Google Icon">
+            Continue with Google
+          </button>
+          <div class="d-flex">
+            <hr class="hr">
+            <div>or</div>
+            <hr class="hr">
+          </div>
 
-  <div class="card">
-    <ul class="nav nav-card-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" href="./login.html">Login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./login.html">Sign up</a>
-      </li>
-    </ul>
-    <div class="card-body">
-      <div class="text-center">
-        <button class="btn btn-login mb-2 oauth-login-button" type="submit">
-          <img class="img-logo-fb" src="./img/fb-logo.svg" alt="Facebook Icon">
-          Continue with Facebook
-        </button>
-        <button class="btn btn-login oauth-login-button" type="submit">
-          <img class="img-logo" src="./img/gg-logo.svg" alt="Google Icon">
-          Continue with Google
-        </button>
-        <div class="d-flex my-3">
-          <hr class="hr">
-          <div>or</div>
-          <hr class="hr">
+          <form>
+            <div class="form-group">
+              <input class="form-control" placeholder="Email" required="required" type="email" value="">
+            </div>
+            <div class="form-group">
+              <input class="form-control" placeholder="Password" required="required" type="password">
+            </div>
+            <div class="checkbox">
+              <label> <input type="checkbox" value="1"> Remember me</label>
+            </div>
+            <button class="btn-upload">Log in</button>
+            <p class="txt-ctm">
+              This form is protected by hCaptcha and its
+              <a target="_blank" href="https://hcaptcha.com/privacy">Privacy Policy</a> and <a target="_blank"
+                href="https://hcaptcha.com/terms">Terms of Service</a> apply.
+            </p>
+
+          </form>
         </div>
       </div>
 
-      <form class="hcaptcha-form" id="new_user">
-        <div class="form-group">
-          <input autofocus="autofocus" autocomplete="email" class="form-control" placeholder="Email" required="required"
-            type="email" value="" name="user[email]" id="user_email">
-        </div>
-        <div class="form-group">
-          <input class="form-control" placeholder="Password" required="required" type="password" name="user[password]"
-            id="user_password">
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
-            Remember me
-          </label>
-        </div>
-        <div class="actions text-center">
-          <div class="text-center">
-            <button class="hcaptcha-submit">Log in</button>
-          </div>
-          <p class="mt-2 mx-auto">
-            This form is protected by hCaptcha and its
-            <a target="_blank" rel="noopener" class="font-weight-bold" href="https://hcaptcha.com/privacy">Privacy
-              Policy</a>
-            and
-            <a target="_blank" rel="noopener" class="font-weight-bold" href="https://hcaptcha.com/terms">Terms of
-              Service</a> apply.
-          </p>
-        </div>
-      </form>
     </div>
+
   </div>
-  <div class="center">amogus</div>
+
 
 
 </body>
