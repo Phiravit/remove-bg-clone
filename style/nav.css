@@ -28,13 +28,16 @@ body {
     border: none;
     cursor: pointer;
   }
+
   .dropbtn {
     display: flex !important;
   }
 }
 
 @media (max-width: 750px) {
-.RemoveBg {margin-top: 40%;}
+  .RemoveBg {
+    margin-top: 40%;
+  }
 }
 
 
@@ -191,7 +194,6 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 2.5%;
 }
 
 .dropbtn {
@@ -232,9 +234,10 @@ li {
   z-index: 2;
 }
 
-.dropdown:hover .dropdown-content a:hover{
-  color:#ccb483;
+.dropdown:hover .dropdown-content a:hover {
+  color: #ccb483;
 }
+
 .dropdown:hover .dropbtn {
   color: #ccb483;
 }
