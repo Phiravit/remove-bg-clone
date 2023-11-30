@@ -1,11 +1,13 @@
 body{
     margin: 0;
     font-family: sans-serif, -apple-system, BlinkMacSystemFont;
+    height: 100%;
 }
+
+html{height: 100%;}
 
 .head-element {
     text-align: center;
-    padding: 0 20px;
     width: auto;
     height: 53px;
     margin-top: 7%;
@@ -46,7 +48,8 @@ a img {
     padding: 10px;
     /* Set the desired padding */
     background-color: #F7F9FA;
-    border: 1px solid #768089;
+    border: 1px rgb(165, 175, 184)768089;
+    border-radius: 10px;
 }
 
 .custom-container img {
