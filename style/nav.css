@@ -12,9 +12,6 @@ body {
   top: 0;
 }
 
-
-
-
 .first-div {
   margin-left: auto;
   margin-right: auto;
@@ -134,6 +131,10 @@ li {
   left: -2px;
   border-radius: inherit;
   pointer-events: none;
+}
+
+.prism {
+  position: absolute;
 }
 
 .pricing {
