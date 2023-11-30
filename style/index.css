@@ -73,21 +73,6 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 767px) {
-    .flex-container2 {
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 640px) {
-
-    .txt1,
-    .txt2 {
-        display: none;
-    }
-}
-
 .ctm-text-up {
     font-weight: bold;
     color: #54616C;
@@ -164,4 +149,19 @@ body {
     align-items: center;
     text-align: center;
     margin: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+    .flex-container2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .txt1,
+    .txt2 {
+        display: none;
+    }
 }

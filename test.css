@@ -1,7 +1,69 @@
-body {
-    font-family: Arial, sans-serif;
+body,
+html {
+    margin: 0;
+    font-family: sans-serif, -apple-system, BlinkMacSystemFont;
+}
+
+.head-element {
+    text-align: center;
+    padding: 0 20px;
+    width: auto;
+    height: 53px;
+    margin-top: 7%;
+    font-size: 1.25em;
+}
+
+a img {
+    width: 230px;
+}
+
+.choice a {
+    color: #0F70E6;
+    text-decoration: none;
+}
+
+.custom-link img {
+    margin-top: 5px;
+}
+
+.btn-upload {
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px;
+    height: 44px;
+    background-color: #0F70E6;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* Set the desired padding */
+    background-color: #F7F9FA;
+    border: 1px solid #768089;
+}
+
+.custom-container img {
+    width: 43px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.custom-container p {
+    color: #768089;
+    font-size: 14px;
+    /* Set the desired font size */
+    line-height: 1.2;
     margin: 0;
 }
+
 
 .card {
     border-radius: 8px;
@@ -42,7 +104,9 @@ body {
 
 
 .btn {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -52,15 +116,32 @@ body {
     line-height: 1.5;
     border-radius: 5px;
     border: 1px solid;
+    width: 70%;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
-.btn-login {
-    background-color: #ffffff;
-    color: #000000;
+.btn img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.img-logo,
+.img-logo-fb {
+    display: inline-block;
 }
 
 .oauth-login-button {
-    width: 100%;
+    text-align: center;
+}
+
+.btn-login {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-login img {
+    margin-bottom: -5px;
 }
 
 .d-flex {
@@ -83,7 +164,7 @@ body {
 }
 
 .form-control {
-    width: 75%;
+    width: 90%;
     padding: 8px 15px;
     font-size: 1rem;
     line-height: 1.5;
@@ -93,10 +174,64 @@ body {
     border-radius: 5px;
 }
 
-.img-logo {
-    width: 20px;
+.choice {
+    font-size: 16px;
 }
-.img-logo-fb {
-    width: 30px;
-    justify-content: center;
+
+.custom-container p {
+    font-size: 14px;
+}
+
+.txt-ctm {
+    font-size: 12px;
+}
+
+.under-card {
+    font-size: 14px;
+}
+
+.under-card a {text-decoration: none;}
+.under-card1 {
+    margin-right: 250px;
+}
+
+.under-card2 {
+    margin-right: 150px;
+}
+
+.under-card3 {
+    margin-right: 185px;
+}
+
+@media (max-width: 440px) {
+    .under-card {
+       display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .head-element {
+       margin-top: 15%;
+    }
+}
+
+
+.main-footer {
+    background-color: #f8f9fa; /* Adjust the color as needed */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg {
+    flex: 1;
 }

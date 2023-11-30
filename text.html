@@ -5,293 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remove Background</title>
-    <!-- <link rel="stylesheet" href="./style/login.css"> -->
+    <link rel="stylesheet" href="./test.css   ">
     <link rel="stylesheet" href="./style/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./img/logo2.png">
-    <style>
-        body,
-        html {
-            margin: 0;
-            font-family: sans-serif, -apple-system, BlinkMacSystemFont;
-        }
 
-        /* .first-div {
-        margin-top: 2px;
-        margin-bottom: 2px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        align-items: center;
-    } */
-        /* 
-    .centering {
-        margin-top: 0.5rem;
-        display: flex;
-        align-items: center;
-    } */
-
-        .head-element {
-            display: flex;
-            margin-left: auto;
-            margin-right: auto;
-            justify-content: center;
-            align-items: center;
-            padding: 0 20px;
-            width: auto;
-            height: 53px;
-            margin-top: 7%;
-            font-size: 28px;
-        }
-
-        a img {
-            width: 230px;
-        }
-
-        p .center a {
-            color: blue;
-        }
-
-        .custom-link img {
-            margin-top: 5px;
-        }
-
-
-
-        .custom-container {
-            display: flex;
-            align-items: center;
-            padding: 10px;
-            /* Set the desired padding */
-            background-color: #F7F9FA;
-            border: 1px solid #768089;
-        }
-
-        .custom-container img {
-            width: 43px;
-            height: 28px;
-            margin-right: 10px;
-        }
-
-        .custom-container p {
-            color: #768089;
-            font-size: 14px;
-            /* Set the desired font size */
-            line-height: 1.2;
-            margin: 0;
-        }
-
-
-        .card {
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-            max-width: 400px;
-        }
-
-        .card-body {
-            padding: 30px;
-        }
-
-        .nav {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .nav-card-tabs {
-            display: flex;
-            justify-content: space-around;
-            background-color: #f0f0f0;
-            border-bottom: 1px solid #ccc;
-            padding: 10px 0;
-        }
-
-        .nav-link {
-            text-decoration: none;
-            color: #333;
-            padding: 10px 15px;
-            border-radius: 5px;
-        }
-
-        .nav-link.active {
-            color: #000000;
-            font-weight: bold;
-        }
-
-
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 400;
-            text-align: center;
-            white-space: nowrap;
-            border: 1px solid transparent;
-            padding: 8px 15px;
-            font-size: 1rem;
-            line-height: 1.5;
-            border-radius: 5px;
-            border: 1px solid;
-            width: 70%;
-            max-width: 300px;
-            margin: 0 auto;
-        }
-
-        .btn img {
-            margin-right: 10px;
-            width: 20px;
-        }
-
-        .img-logo,
-        .img-logo-fb {
-            display: inline-block;
-        }
-
-        .oauth-login-button {
-            text-align: center;
-        }
-
-        .btn-login {
-            border-radius: 20px;
-            margin-bottom: 10px;
-        }
-
-        .btn-login img {
-            margin-bottom: -5px;
-        }
-
-        .d-flex {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .hr {
-            border: 0;
-            height: 1px;
-            background-color: #ccc;
-            flex-grow: 1;
-            margin: 0 10px;
-        }
-
-
-        .form-group {
-            margin-bottom: 1rem;
-        }
-
-        .form-control {
-            width: 90%;
-            padding: 8px 15px;
-            font-size: 1rem;
-            line-height: 1.5;
-            color: #495057;
-            background-color: #fff;
-            border: 1px solid #ced4da;
-            border-radius: 5px;
-        }
-
-        @media only screen and (min-width: 600px) {
-
-            .head-element {
-                font-size: 36px;
-            }
-        }
-    </style>
 </head>
 
 <body>
-    <div class="prism">
-        <nav class="headingrule" id="navbar">
-            <div class="first-div">
-                <div class="second-div">
-                    <div class="third-div">
-                        <a class="custom-link" href="./index.html">
-                            <img src="./img/logo-ai.svg" alt="logo by kaleido ai">
-                        </a>
+    <main>
+        <div class="prism">
+            <nav class="headingrule" id="navbar">
+                <div class="first-div">
+                    <div class="second-div">
+                        <div class="third-div">
+                            <a class="custom-link" href="./index.html">
+                                <img src="./img/logo-ai.svg" alt="logo by kaleido ai">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-    <div class="header">
-        <div class="head-element">
-            <h2>Login with your Kaleido Account</h2>
+            </nav>
         </div>
-        <p class="center">or create a &nbsp;<a href="#">new account</a>&nbsp; for free</p>
-    </div>
+        <div class="header">
+            <div class="head-element">
+                <h2>Login with your Kaleido Account</h2>
+                <p class="center">
+                    <span class="choice">or create a &nbsp;<a href="#">new account</a>&nbsp; for free</span>
+                </p>
 
-    <div class="center">
-        <div class="custom-container">
-            <img src="./img/small-ai-logo.svg" alt="Your Image">
-            <p>You can use your Kaleido Account for remove.bg,<br> unscreen.com, and designify.com services.</p>
-        </div>
-    </div>
-
-
-    <div class="card">
-        <ul class="nav nav-card-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" href="./login.html">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./login.html">Sign up</a>
-            </li>
-        </ul>
-        <div class="card-body">
-            <div class="text-center">
-                <button class="btn btn-login mb-2 oauth-login-button" type="submit">
-                    <img class="img-logo-fb" src="./img/fb-logo.svg" alt="Facebook Icon">
-                    Continue with Facebook
-                </button>
-                <button class="btn btn-login oauth-login-button" type="submit">
-                    <img class="img-logo" src="./img/gg-logo.svg" alt="Google Icon">
-                    Continue with Google
-                </button>
-                <div class="d-flex my-3">
-                    <hr class="hr">
-                    <div>or</div>
-                    <hr class="hr">
-                </div>
-            </div>
-
-            <form class="hcaptcha-form" id="new_user">
-                <div class="form-group">
-                    <input autofocus="autofocus" autocomplete="email" class="form-control" placeholder="Email"
-                        required="required" type="email" value="" name="user[email]" id="user_email">
-                </div>
-                <div class="form-group">
-                    <input class="form-control" placeholder="Password" required="required" type="password"
-                        name="user[password]" id="user_password">
-                </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
-                        Remember me
-                    </label>
-                </div>
-                <div class="actions text-center">
-                    <div class="text-center">
-                        <button class="hcaptcha-submit">Log in</button>
+                <div class="center">
+                    <div class="custom-container">
+                        <img src="./img/small-ai-logo.svg" alt="Your Image">
+                        <p>You can use your Kaleido Account for remove.bg,<br> unscreen.com, and designify.com services.
+                        </p>
                     </div>
-                    <p class="mt-2 mx-auto">
-                        This form is protected by hCaptcha and its
-                        <a target="_blank" rel="noopener" class="font-weight-bold"
-                            href="https://hcaptcha.com/privacy">Privacy
-                            Policy</a>
-                        and
-                        <a target="_blank" rel="noopener" class="font-weight-bold"
-                            href="https://hcaptcha.com/terms">Terms of
-                            Service</a> apply.
-                    </p>
                 </div>
-            </form>
+                <div class="card">
+                    <ul class="nav nav-card-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Sign up</a>
+                        </li>
+                    </ul>
+                    <div class="card-body">
+
+                        <button class="btn btn-login" type="submit">
+                            <img class="img-logo-fb" src="./img/fb-logo.svg" alt="Facebook Icon">
+                            Continue with Facebook
+                        </button>
+                        <button class="btn btn-login oauth-login-button" type="submit">
+                            <img class="img-logo" src="./img/gg-logo.svg" alt="Google Icon">
+                            Continue with Google
+                        </button>
+                        <div class="d-flex">
+                            <hr class="hr">
+                            <div>or</div>
+                            <hr class="hr">
+                        </div>
+
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email" required="required" type="email"
+                                    value="">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Password" required="required" type="password">
+                            </div>
+                            <div class="checkbox">
+                                <label> <input type="checkbox" value="1"> Remember me</label>
+                            </div>
+                            <button class="btn-upload">Log in</button>
+                            <p class="txt-ctm">
+                                This form is protected by hCaptcha and its
+                                <a target="_blank" href="https://hcaptcha.com/privacy">Privacy Policy</a> and <a
+                                    target="_blank" href="https://hcaptcha.com/terms">Terms of Service</a> apply.
+                            </p>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="under-card">
+                    <a href="#" class="under-card1">Forgot your password?</a><br>
+                    <a href="#" class="under-card2">Didn't receive confirmation instructions?</a><br>
+                    <a href="#" class="under-card3">Didn't receive unlock instructions?</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="center">amogus</div>
+    </main>
 
-
+        
 </body>
 
 </html>
