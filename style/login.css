@@ -1,5 +1,4 @@
-body,
-html {
+body{
     margin: 0;
     font-family: sans-serif, -apple-system, BlinkMacSystemFont;
 }
@@ -184,4 +183,61 @@ a img {
 
 .txt-ctm {
     font-size: 12px;
+}
+
+.under-card {
+    font-size: 14px;
+}
+
+.under-card a {
+    text-decoration: none;
+}
+
+.under-card1 {
+    margin-right: 250px;
+}
+
+.under-card2 {
+    margin-right: 150px;
+}
+
+.under-card3 {
+    margin-right: 185px;
+}
+
+
+
+.main-footer {
+    background-color: #f8f9fa;
+    /* Adjust the color as needed */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg {
+    flex: 1;
+}
+
+.head-element h2 {font-size: 40px;}
+
+@media (max-width: 440px) {
+    .under-card {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .head-element {
+        margin-top: 15%;
+    }
 }
