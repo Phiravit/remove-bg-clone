@@ -4,125 +4,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remove Background</title>
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="stylesheet" href="./style/nav.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/text.css">
+    <link rel="stylesheet" href="/style/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./img/logo2.png">
-    <style>
-        /* Sorry for anyone who try to read this I did a little bit of hard code cuz im burnout already */
-        body {
-            margin: 0;
-        }
-
-        .first-navbar {
-            background-color: white;
-            opacity: 0.9;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            position: fixed;
-            width: 50%;
-            top: 0;
-            left: 0;
-            z-index: 2;
-        }
-
-        .first-navbar .first-div {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 20px;
-        }
-
-        .first-navbar .menu-list,
-        .first-navbar .login {
-            display: flex;
-            gap: 31px;
-        }
-
-        .first-navbar a {
-            color: #454545;
-            text-decoration: none;
-        }
-
-        .first-navbar a:hover {
-            color: #ccb483;
-        }
-
-        .first-navbar li {
-            list-style: none;
-        }
-
-        .first-navbar p {
-            margin: 0;
-        }
-
-        /* Styles for the second navbar on the right */
-        .second-navbar {
-            background-color: #454545;
-            position: fixed;
-            width: 50%;
-            top: 0;
-            right: 0;
-            height: 100px;
-            z-index: 1;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            padding: 0 20px;
-        }
-
-        .second-navbar p {
-            color: white;
-            font-weight: bold;
-            font-size: 16px;
-            margin: 0;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="prism">
-        <nav class="headingrule" id="navbar">
-            <div class="first-div">
-                <div class="second-div">
-                    <div class="third-div">
+    <header>
+        <div class="prism">
+            <nav class="headingrule" id="navbar">
+                <div class="first-div">
+                    <div class="second-div">
+                        <div class="third-div">
+                            <a class="custom-link" href="./index.html">
+                                <img src="./img/rmbg.svg" alt=""> </a>
+                        </div>
 
-                    </div>
+                        <ul class="menu-list">
+                            <li><a href="./index.html" class="Home" draggable="true">Remove Background</a></li>
+                            <li><a href="#" class="Hows">How to use</a></li>
+                            <li><a href="./tools-api.html" class="apis" draggable="true">Tools &amp; API</a></li>
+                            <li><a href=#" draggable="true">Pricing</a></li>
+                        </ul>
+                        <ul class="login">
+                            <li><a href="./login.html" draggable="true" class="realLogin">Log in</a></li>
+                            <li><a role="button" href="./login.html" class="signup">Sign up</a></li>
+                        </ul>
 
-                    <ul class="menu-list">
-                        <li><a href="./index.html" class="Home" draggable="true">Remove Background</a></li>
-                        <li><a href="#" class="Hows">How to use</a></li>
-                        <li><a href="./tools-api.html" class="apis" draggable="true">Tools &amp; API</a></li>
-                        <li><a href=#" draggable="true">Pricing</a></li>
-                    </ul>
-                    <ul class="login">
-                        <li><a href="./login.html" draggable="true" class="realLogin">Log in</a></li>
-                        <li><a role="button" href="./login.html" class="signup">Sign up</a></li>
-                    </ul>
-
-                    <div class="dropdown">
-                        <button class="dropbtn">=</button>
-                        <div class="dropdown-content">
-                            <a href="./index.html">Remove Background</a>
-                            <a href="#">How to use</a>
-                            <a href="./tools-api.html">Tools & API</a>
-                            <a href="#">Pricing</a>
-                            <a href="./login.html">Log in</a>
-                            <a href="./login.html">Sign up</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">=</button>
+                            <div class="dropdown-content">
+                                <a href="./index.html">Remove Background</a>
+                                <a href="#">How to use</a>
+                                <a href="./tools-api.html">Tools & API</a>
+                                <a href="#">Pricing</a>
+                                <a href="./login.html">Log in</a>
+                                <a href="./login.html">Sign up</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </nav>
+            </nav>
+        </div>
+        <div class="sub-navbar-container">
+            <div class="sub-navbar">
+                <div class="sub-menuItem header poppins">Tools & API</div>
+                <div class="sub-menuItem">
+                    <div class="sub-menuItem-img-container"><img src="./img/cam-svg.svg" alt=""></div>
+                    <div class="open-sans">Design & Photo Editing</div>
+                </div>
+
+                <div class="sub-menuItem">
+                    <div class="sub-menuItem-img-container"><img src="./img/cart-svg.svg" alt=""></div>
+                    <div class="open-sans">E-Commerce</div>
+                </div>
+
+                <div class="sub-menuItem">
+                    <div class="sub-menuItem-img-container"><img src="./img/content-management.svg" alt=""></div>
+                    <div class="open-sans">Content Management</div>
+                </div>
+
+                <div class="sub-menuItem">
+                    <div class="sub-menuItem-img-container"><img src="./img/automation-svg.svg" alt=""></div>
+                    <div class="open-sans">Automation</div>
+                </div>
+
+                <div class="sub-menuItem">
+                    <div class="sub-menuItem-img-container"><img src="./img/coding-svg.svg" alt=""></div>
+                    <div class="open-sans">API & Command Line</div>
+                </div>
+
+                <div class="sub-searchBar">
+                    <div class="searchIcon-container"><img src="./img/icons8-search.svg" alt=""></div>
+                    <input class="searchInput" type="text" placeholder="Search tools">
+                </div>
             </div>
-        </nav>
-        <nav class="second-navbar">
-            <ul>
-                <li>
-                    <p>Tools-Api</p>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="main-header">
+                <h1 class="poppins">API & Command Line</h1>
+                <p class="poppins">Learn everything you need to know about how to use the remove.bg API for your
+                    software. Get instant access to our API
+                    docs and the Command Line tool guide to help you remove image backgrounds automatically in seconds.
+                </p>
+            </div>
+            <div class="main-content">
+
+                <div class="box-container">
+                    <div class="box-content">
+                        <div class="box-description">
+                            <div class="box-img-container"><img src="./img/apicall-svg.svg" alt=""></div>
+                            <div class="box-description header poppins">
+                                Remove background automatically with 1 API call
+                            </div>
+                        </div>
+                        <div class="box-link">
+                            <a href="#" class="open-sans">API Docs</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-container">
+                    <div class="box-content">
+                        <div class="box-description">
+                            <div class="box-img-container"><img src="./img/cmdline-svg.svg" alt=""></div>
+                            <div class="box-description header poppins">
+                                Use remove.bg via your command line
+                            </div>
+                        </div>
+                        <div class="box-link">
+                            <a href="#" class="open-sans">Command line tool</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="faq-container">
+                <div class="faq-header">
+                    <h2 class="poppins">Frequently asked questions</h2>
+                </div>
+                <div class="faq">
+                    <div class="question">
+                        <div class="question-header open-sans">How do I get an API key?</div>
+                        <div class="question-img-container"></div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header open-sans">How do I log into Apps using my API key?</div>
+                        <div class="question-img-container"></div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header open-sans">What's the difference between an API key and the Kaleido
+                            account?</div>
+                        <div class="question-img-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-nav-container">
+            <!-- <div class="footer-nav">
+                <ul class="footer-col">
+                    <li class="row-category">Learn more</li>
+                    <li class="row-item">Magic Brush</li>
+                    <li class="row-item">Individual</li>
+                    <li class="row-item">Photographers</li>
+                    <li class="row-item">Marketing</li>
+                    <li class="row-item">Developers</li>
+                </ul>
+                <ul class="footer-col">
+                    <li class="row-category">Tool & API</li>
+                    <li class="row-item">Magic Brush</li>
+                    <li class="row-item">Individual</li>
+                    <li class="row-item">Photographers</li>
+                    <li class="row-item">Marketing</li>
+                    <li class="row-item">Developers</li>
+                </ul>
+                <ul class="footer-col">
+                    <li class="row-category">Support</li>
+                    <li class="row-item">Magic Brush</li>
+                    <li class="row-item">Individual</li>
+                    <li class="row-item">Photographers</li>
+                    <li class="row-item">Marketing</li>
+                    <li class="row-item">Developers</li>
+                </ul>
+                <ul class="footer-col">
+                    <li class="row-category">Company</li>
+                    <li class="row-item">Magic Brush</li>
+                    <li class="row-item">Individual</li>
+                    <li class="row-item">Photographers</li>
+                    <li class="row-item">Marketing</li>
+                    <li class="row-item">Developers</li>
+                </ul>
+            </div> -->
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-buttons">
+                <div class="groupLeft">
+                    <div class="lang-btn">
+                        <div class="lang-icon-container"><img src="./img/globe.svg" alt=""></div>
+                        <div class="lang open-sans">English</div>
+                    </div>
+                </div>
+                <div class="groupRight">
+                    <div class="contact-btn"><img src="./img/fb.svg" alt="Facebook"></div>
+                    <div class="contact-btn"><img src="./img/ig.svg" alt="Instagram"></div>
+                    <div class="contact-btn"><img src="./img/twitter.svg" alt="Twitter"></div>
+                    <div class="contact-btn"><img src="./img/tiktok.svg" alt="Tiktard"></div>
+                    <div class="contact-btn"><img src="./img/yt.svg" alt="Youtube"></div>
+                    <div class="contact-btn"><img src="./img/linkedin.svg" alt="LinkEdln"></div>
+                </div>
+            </div>
+            <div class="footer-law">
+                <div class="groupLeft">
+                    &copy; Kaleido AI GmbH 2023
+                </div>
+                <div class="groupRight">
+                    <a href="#">Term of Secvice</a>
+                    <a href="#">General Terms and Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Imprint</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
